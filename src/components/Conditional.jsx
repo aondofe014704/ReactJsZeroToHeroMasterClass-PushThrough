@@ -1,10 +1,11 @@
-function Conditional (){
+export default function Conditional (){
+    let message;
     const display = false;
+    if (display) {
+        message = <h1>This is message 1</h1>
+    } else {
+        message = <h1>This is message 2</h1>
+    }
+    return message;
 
-    return <div>
-        <h3>This is a Conditional Component</h3>
-        <h3>Code Every Day!</h3>
-
-    </div>
 }
-export default Conditional

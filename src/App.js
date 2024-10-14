@@ -1,6 +1,10 @@
 import React from 'react';
 import Hello from "./components/Hello";
 import Fruits from "./components/Fruits";
+import Conditional from "./components/Conditional";
+import EventHandling from "./components/EventHandling";
+import StateCounter from "./components/StateCounter";
+import Form from "./components/Form";
 function App() {
     const person = {
         name : "Rob",
@@ -13,8 +17,12 @@ function App() {
     }
   return (
     <div className="App">
-        <Hello person={person}/>
-        <Fruits></Fruits>
+        {/*<Hello person={person}/>*/}
+        {/*<Fruits></Fruits>*/}
+        {/*<Conditional></Conditional>*/}
+        {/*<EventHandling></EventHandling>*/}
+        {/*<StateCounter></StateCounter>*/}
+        <Form/>
     </div>
   );
 }
